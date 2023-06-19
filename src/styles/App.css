@@ -1,0 +1,156 @@
+*{
+    font-family: sans-serif;
+    background-color: #E3F4F4;
+}
+.heading p{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ff7058;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.heading{
+    width: 37%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #324a5e;
+}
+.heading button{
+    margin-left: 8%;
+    height: 2.5em;
+    width: 8em;
+    border: none;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 1rem;
+    background: #324a5e;
+    color: white; 
+}
+.heading button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.container img{
+    width: 10%;
+    padding-right: 1%;
+}
+.contact-list{
+    margin-top: 3%;
+    width: 40%;
+}
+.list-item{
+    display: flex;
+}
+.list-item img{
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+}
+.contact-logo{
+    width: 100px;
+}
+.name-phone{
+    width: 35%;
+}
+.name{
+    margin-top: 40px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.phone{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.edit{
+    margin-left: 40%;
+}
+.edit img{
+    width: 40px;
+}
+.edit:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.delete{
+    margin-left: 2%;
+}
+.delete img{
+    width: 40px;
+}
+.delete:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+/* Add Contact Form Style */
+
+h1{
+    text-align: center;
+    border-bottom: 1px dotted black;
+    color: #324a5e;
+    background: none;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-contact-from{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50vh;
+    margin-top:5%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: white;
+}
+.add-name{
+    margin-top: 2%;
+    background: white;
+}
+.add-phone{
+    margin-top: 2%;
+    background: white;
+}
+.add-contact-from input{
+    border: none;
+    border: 2px solid #324a5e;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background: white;
+}
+.add-contact-from label{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-right: 20px;
+    background: white;
+    color: #324a5e;
+}
+
+.add-contact-from button{
+    margin-top: 5%;
+    width: 15%;
+    height: 35px;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+    background-color: #324a5e;
+    color: white;
+    border-radius: 25px;
+    font-weight: 700;
+}
+.add-contact-from button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
